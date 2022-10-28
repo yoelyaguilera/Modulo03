@@ -11,6 +11,11 @@ public class Gestor extends Persona{
         this.idOficina = idOficina;
     }
 
+    public Gestor(int id, String nombre) {
+        super(id, nombre, "0");
+        this.idOficina = 0;
+    }
+
     
     public float getIdOficina(){
         return this.idOficina;

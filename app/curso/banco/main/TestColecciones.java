@@ -32,7 +32,5 @@ public class TestColecciones {
 
         System.out.println(lista);
 
-
-
     }
 }
