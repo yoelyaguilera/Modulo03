@@ -17,7 +17,7 @@ public class TestRandom {
         boolean booleanoAleatorio = random.nextBoolean();
         System.out.println("Booleano aleatorio: " + booleanoAleatorio);
         // Nombres Aleatorio
-        String [] nombres = {"JUAN", "ANTONIA", "PACO", "IRENE"};
+        // String [] nombres = {"JUAN", "ANTONIA", "PACO", "IRENE"};
         String [] apellidos = {"LOPEZ", "GARCIA", "SOTILLO", "AGUILERA"};
 
         // int iNombre = random.nextInt(nombres.length);
