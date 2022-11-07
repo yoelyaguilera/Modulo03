@@ -5,20 +5,22 @@ public class Persona {
     protected int id;
     protected String nombre;
     protected String telefono;
+    // protected String userName;
+    protected String password;
 
-//Constructores por defecto
+    //Constructores por defecto
     public Persona(){
 
     }
 
-//Constructor Parametrizado
+    //Constructor Parametrizado
     public Persona(int id, String nombre , String telefono){
         this.id = id;
         this.nombre = nombre;
         this.telefono = telefono;
     }
 
-//Metodos
+    //Metodos
     public int getId(){
         return id;
     }
@@ -42,6 +44,21 @@ public class Persona {
 	public void setTelefono(String telefono) {
 		this.telefono = telefono;
 	}
+    // public String getUserName() {
+    //     return userName;
+    // }
+
+    // public void setUserName(String userName) {
+    //     this.userName = userName;
+    // }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
 
     public void mostrarInfo (){
         System.out.println("Id: " + this.id);
