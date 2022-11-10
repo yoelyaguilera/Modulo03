@@ -1,7 +1,6 @@
 package app.curso.banco.main;
 import java.util.HashMap;
 import java.util.Scanner;
-
 import app.curso.banco.entidad.Cliente;
 import app.curso.banco.entidad.Gestor;
 import app.curso.banco.util.Utiles;
@@ -10,7 +9,6 @@ import app.curso.banco.entidad.Transferencia;
 
 public class ConsolaBanco {
     public static void main(String[] args){
-
         HashMap <Integer, Cliente> clientes = new HashMap<>();
         HashMap<Integer,Gestor> gestores = new HashMap<>();
 		HashMap<Integer, Mensaje> mensajes = new HashMap<>();

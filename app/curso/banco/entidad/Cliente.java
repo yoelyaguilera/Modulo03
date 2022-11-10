@@ -3,7 +3,7 @@ import java.util.HashMap;
 
 public class Cliente extends Persona{
     private float totalDinero;
-    // cada cuenta tiene una clave o id de tipo string y una cantidad  de dinero float
+   
     private HashMap<String,Float> cuentas;
 
     public Cliente(){

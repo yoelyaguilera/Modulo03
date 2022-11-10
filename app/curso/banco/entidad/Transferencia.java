@@ -3,7 +3,6 @@ package app.curso.banco.entidad;
 public class Transferencia extends Mensaje {
     private float dinero;
     
-
     public Transferencia(){
 
     }
